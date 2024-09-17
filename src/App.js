@@ -30,6 +30,13 @@ function App() {
         {/* <Link to={'/contact'}>Contact</Link>   */}
         <Link to={'/bank'}>Bank</Link>  
         <Link to={'/about'}>About</Link>  
+        <Link to={'/client'}>client</Link>  
+        <Link to={'/userefhook'}>UseRefHook</Link>  
+        <Link to={'/usecallback'}>UseCallbackHook</Link>  
+
+        
+
+      
       </div>      
       <div>
         <Routes>
