@@ -4,7 +4,7 @@ import { Route,Routes, Link } from 'react-router-dom';
 import Bank from './Components/Bank';
 import Home from './Components/Home';
 // import Log from './Components/Log';
-import Contact from './Components/Contact';
+// import Contact from './Components/Contact';
 import About from './Components/About';
 import ParentProp from './Components/Props/ParentProp';
 import UseStateHook from './Components/Hook/UseStateHook';
@@ -27,7 +27,7 @@ function App() {
       {/* <Bank></Bank> */}
       <div>
         <Link to={'/home'}>Home</Link>  
-        <Link to={'/contact'}>Contact</Link>  
+        {/* <Link to={'/contact'}>Contact</Link>   */}
         <Link to={'/bank'}>Bank</Link>  
         <Link to={'/about'}>About</Link>  
       </div>      
@@ -35,7 +35,7 @@ function App() {
         <Routes>
           <Route path="home" Component={Home} />
           <Route path="bank" element={<Bank/>} />
-          <Route path="Contact" Component={Contact} />
+          {/* <Route path="Contact" Component={Contact} /> */}
           <Route path="About" Component={About} />
           <Route path="prop" Component={ParentProp} />
           <Route path="usestate" Component={UseStateHook} />
