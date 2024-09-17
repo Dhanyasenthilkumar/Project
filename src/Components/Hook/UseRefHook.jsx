@@ -18,7 +18,7 @@ export default function UseRefHook() {
         <label htmlFor="">Enter Text:</label>
         <input ref={InpRef} type="text" name="" id="" />
         <button onClick={handleClick}>Send</button>
-        <h1 ref={disp}></h1>
+        <h1 ref={disp}>demo</h1>
     </div>
   )
 }

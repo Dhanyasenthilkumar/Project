@@ -3,7 +3,7 @@ import './App.css';
 import { Route,Routes, Link } from 'react-router-dom';
 import Bank from './Components/Bank';
 import Home from './Components/Home';
-import Log from './Components/Log';
+// import Log from './Components/Log';
 import Contact from './Components/Contact';
 import About from './Components/About';
 import ParentProp from './Components/Props/ParentProp';
